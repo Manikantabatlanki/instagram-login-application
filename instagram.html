@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="test4_styles.css">
+      <style>
+        input[type="submit"]{
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+      </style>
+      <style>
+        input{
+          width: 300px;
+          height: 30px;
+        }
+        #p1{
+          color: blue;
+        }
+        .hover:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+        #p2{
+          hover:hover{
+            text-decoration: underline;
+            cursor:pointer
+          }
+        }
+
+      </style> 
+    </head>
+    <body>
+        <div class="inst">
+            <center>
+              <h1><i>Instagram</i></h1>
+            </center>
+        </div>
+        <center>
+         <form>
+           <label for="username">username</label><br>
+           <input type="text" id="username" name="username"><br><br>
+           <label for="password">password</label><br>
+           <input type="password" id="password" name="password"><br><br>
+           <div class="k">
+            <input type="submit" value="login">
+           </div>
+           <div class="divider">
+              <hr <span>or</span>
+           </div>
+           <div class="hover">
+             <p id="p1"><b>Log in With Facebook</b></p>
+           </div>
+           <div class="hover">
+             <p id="p2">forgotten password?</p><br>
+           </div>
+           <p>Don't Have any account?<a href="#"> sign up</a></p>
+         </form>
+        </center>
+     </body>
+</html>
